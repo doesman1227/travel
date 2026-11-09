@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>また行きたいところ｜場所・旅行</title>
+<meta name="description" content="行ったところのうち、もう一度行きたいと思ったところ。登山、公園、お風呂、映画館。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=771069a8">
+</head>
+<body>
+<!-- アイコンは線画のまま埋め込んでおく。外から取りに行かないので表示が遅れない。
+     三枚とも同じ束を持たせる。一枚だけ足し忘れると、そのページの丸だけが空になる。
+     足し忘れは build_items.py の check_icons が見つけて止める。 -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+  <symbol id="ic-grid" viewBox="0 0 24 24">
+    <rect x="3.5" y="3.5" width="7.2" height="7.2" rx="1.5"/>
+    <rect x="13.3" y="3.5" width="7.2" height="7.2" rx="1.5"/>
+    <rect x="3.5" y="13.3" width="7.2" height="7.2" rx="1.5"/>
+    <rect x="13.3" y="13.3" width="7.2" height="7.2" rx="1.5"/></symbol>
+  <symbol id="ic-calendar" viewBox="0 0 24 24">
+    <rect x="3.4" y="5.2" width="17.2" height="15.4" rx="2.4"/>
+    <path d="M3.4 10h17.2M8.4 3.4v3.6M15.6 3.4v3.6"/></symbol>
+  <symbol id="ic-heart" viewBox="0 0 24 24">
+    <path d="M12 20.2S3.6 15.3 3.6 9.6A4.6 4.6 0 0 1 12 7a4.6 4.6 0 0 1 8.4 2.6c0 5.7-8.4 10.6-8.4 10.6z"/></symbol>
+  <symbol id="ic-bookmark" viewBox="0 0 24 24">
+    <path d="M6.4 3.8h11.2v16.8L12 16.4l-5.6 4.2z"/></symbol>
+  <symbol id="ic-info" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="8.6"/><path d="M12 11.4v5M12 7.8h.01"/></symbol>
+  <symbol id="ic-book" viewBox="0 0 24 24">
+    <path d="M12 7.6C12 6 10 4.6 6.6 4.6H3.6v13h3.5c2.9 0 4.9 1.2 4.9 2.4"/>
+    <path d="M12 7.6C12 6 14 4.6 17.4 4.6h3v13h-3.5c-2.9 0-4.9 1.2-4.9 2.4"/><path d="M12 7.6V20"/></symbol>
+  <symbol id="ic-pin" viewBox="0 0 24 24"><path d="M12 21s6.8-6 6.8-11A6.8 6.8 0 1 0 5.2 10c0 5 6.8 11 6.8 11z"/><circle cx="12" cy="10" r="2.6"/></symbol>
+  <symbol id="ic-tree" viewBox="0 0 24 24"><circle cx="12" cy="8.5" r="5"/><path d="M12 13.5V21"/><path d="M12 17.5 9 15"/><path d="M12 16l3-2.5"/><path d="M9.5 21h5"/></symbol>
+  <symbol id="ic-home" viewBox="0 0 24 24">
+      <path d="M3.6 10.4 12 3.6l8.4 6.8v9.1a.9.9 0 0 1-.9.9H4.5a.9.9 0 0 1-.9-.9z"/>
+      <path d="M9.6 20.4v-6h4.8v6"/></symbol>
+  <symbol id="ic-frame" viewBox="0 0 24 24"><rect x="3.4" y="4" width="17.2" height="14" rx="1.8"/><path d="m6.6 15.2 3.4-4.2 2.6 3 2.2-2.4 2.6 3.6"/><circle cx="9.2" cy="8.4" r="1.1"/><path d="M9 20.6h6"/></symbol>
+  <symbol id="ic-bath" viewBox="0 0 24 24"><path d="M3 12h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M6 12V6.5a2.2 2.2 0 0 1 4.4 0"/><path d="M7 19l-1 2"/><path d="M17 19l1 2"/></symbol>
+  <symbol id="ic-tent" viewBox="0 0 24 24"><path d="M12 4 3 20h18z"/><path d="M12 10 8 20"/><path d="M12 10l4 10"/></symbol>
+  <symbol id="ic-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6"/><path d="M3.4 12h17.2"/><path d="M12 3.4c2.4 2.4 3.6 5.3 3.6 8.6S14.4 18.2 12 20.6"/><path d="M12 3.4C9.6 5.8 8.4 8.7 8.4 12s1.2 6.2 3.6 8.6"/></symbol>
+  <symbol id="ic-star" viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.5 6 .8-4.3 4.2 1 6-5.3-2.8-5.3 2.8 1-6L3.4 9.8l6-.8z"/></symbol>
+  <symbol id="ic-sparkle" viewBox="0 0 24 24"><path d="M11 3l1.7 4.8L17.5 9.5l-4.8 1.7L11 16l-1.7-4.8L4.5 9.5l4.8-1.7z"/><path d="M17.5 15l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></symbol>
+</defs></svg>
+
+<div class="wrap">
+  <div class="top"><a class="back" href="./">← 場所・旅行</a></div>
+
+  <header class="hero">
+    <p class="eyebrow">AGAIN</p>
+    <h1>また行きたいところ</h1>
+  </header>
+
+  <section id="picks">
+    <div class="cats" data-picks><p class="empty">読み込み中…</p></div>
+    <p class="aside"><span data-count="picks"></span>。有名な順ではなく、またあの感じを味わいたいと思ったところ。領域ごとに分けてあります。</p>
+  </section>
+  <footer>
+    <p>行ったところの全件は <a href="./">場所・旅行</a> に、領域別と年別で並べています。</p>
+    <p>まだ行っていないところは <a href="want.html">行きたいところ</a> にまとめています。</p>
+    <p><a class="back" href="./">← 場所・旅行</a>　<a class="back" href="../">← m-note トップ</a></p>
+  </footer>
+</div>
+<script src="app.js?v=771069a8"></script>
+</body>
+</html>

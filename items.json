@@ -1,0 +1,140 @@
+{
+  "note": "場所・旅行（行ったところ・また行きたいところ・行きたいところ）。build_items.py が書き出す。直すのはあちら。",
+  "items": [
+    {
+      "slug": "mountain-climb",
+      "title": "週末の登山",
+      "year": "2026",
+      "source": "../musings/posts/p143.html",
+      "memo": "頂上に着いたとき、下山したあと、眠る前。大変だったからこそ、そのあとの喜びが大きかった。登山の翌日、仕事が苦にならず頭がすっきりしていた。",
+      "use": "キャンプと山",
+      "sub": "登山"
+    },
+    {
+      "slug": "park",
+      "title": "鳥の多い公園",
+      "memo": "家からすぐ行ける。いまの家を気に入っている理由のひとつ。",
+      "use": "近所と日常",
+      "sub": "公園"
+    },
+    {
+      "slug": "gym-bath",
+      "title": "ジムの大きなお風呂",
+      "memo": "運動のあとにほどける。人のいる場所にいることも目的のうち。",
+      "use": "近所と日常",
+      "sub": "おふろ"
+    },
+    {
+      "slug": "cinema",
+      "title": "映画館",
+      "memo": "週末に行く。日常から離れて作品に入る時間。",
+      "use": "近所と日常",
+      "sub": "映画館"
+    }
+  ],
+  "wants": [
+    {
+      "slug": "tsukuba",
+      "title": "筑波山",
+      "memo": "自然の雄大さに、心から感動できる場所へ。",
+      "use": "自然",
+      "sub": "山"
+    },
+    {
+      "slug": "overseas",
+      "title": "海外の、心を動かされる場所",
+      "memo": "普段とはまったく違う景色に触れ、感動する体験をしたい。",
+      "use": "遠くの国",
+      "sub": "海外"
+    },
+    {
+      "slug": "small-trip",
+      "title": "行ったことのない街へ、小旅行",
+      "memo": "週末に別の場所に泊まる。いつもの散歩道を一本変えるくらいの小さな非日常から。",
+      "use": "街と建築",
+      "sub": "小旅行",
+      "source": "../musings/posts/p072.html"
+    },
+    {
+      "slug": "historic-town",
+      "title": "歴史ある街を歩き、建築や美術に出会う",
+      "memo": "古い建物や絵画を前に、それを作った人たちの思いや工夫に思いを馳せたい。",
+      "use": "街と建築",
+      "sub": "歴史ある街",
+      "source": "../way-of-life/#pillars"
+    },
+    {
+      "slug": "mile-trip",
+      "title": "マイルで飛行機に乗る旅",
+      "memo": "普段の支出から貯めたマイルで、飛行機に乗ってどこかへ。",
+      "use": "遠くの国",
+      "sub": "飛行機",
+      "source": "../musings/posts/p057.html"
+    }
+  ],
+  "uses": [
+    {
+      "name": "近所と日常",
+      "en": "NEARBY",
+      "icon": "pin",
+      "ref": "note.html#steps",
+      "subs": [
+        "公園",
+        "おふろ",
+        "映画館"
+      ],
+      "n": 3
+    },
+    {
+      "name": "自然",
+      "en": "NATURE",
+      "icon": "tree",
+      "ref": "note.html#touch",
+      "subs": [],
+      "n": 0
+    },
+    {
+      "name": "街と建築",
+      "en": "TOWN",
+      "icon": "home",
+      "ref": "note.html#touch",
+      "subs": [],
+      "n": 0
+    },
+    {
+      "name": "美術と展示",
+      "en": "ART",
+      "icon": "frame",
+      "ref": "note.html#touch",
+      "subs": [],
+      "n": 0
+    },
+    {
+      "name": "温泉と宿",
+      "en": "ONSEN",
+      "icon": "bath",
+      "ref": "",
+      "subs": [],
+      "n": 0
+    },
+    {
+      "name": "キャンプと山",
+      "en": "CAMP",
+      "icon": "tent",
+      "ref": "note.html#steps",
+      "subs": [
+        "登山"
+      ],
+      "n": 1
+    },
+    {
+      "name": "遠くの国",
+      "en": "ABROAD",
+      "icon": "globe",
+      "ref": "note.html#support",
+      "subs": [],
+      "n": 0
+    }
+  ],
+  "left": ""
+}

@@ -3,197 +3,96 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>旅｜これから</title>
-<meta name="description" content="安全な範囲で、未知に触れに行く。散歩道を一本変えることから海外まで、非日常の段階、旅で触れたいもの、行きたい場所と行ったところをまとめた個人的なノート。">
+<title>場所・旅行｜まとめノート</title>
+<meta name="description" content="行ったところを、近所と日常・自然・街と建築・キャンプと山といった領域別と、行った年ごとに並べた一覧。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;600;700&display=swap" rel="stylesheet">
-<style>
-  :root{--bg:#f6f5f1;--surface:#fff;--ink:#24231f;--muted:#66625a;--faint:#9d988e;--line:#e3dfd6;--accent:#3d7a6c;--wash:#eaf0ed}
-  @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#131516;--surface:#1b1e20;--ink:#e9eae6;--muted:#a9aca6;--faint:#6b6f6b;--line:#2b2f31;--accent:#8cc7b6;--wash:#1a2421}}
-  :root[data-theme="dark"]{--bg:#131516;--surface:#1b1e20;--ink:#e9eae6;--muted:#a9aca6;--faint:#6b6f6b;--line:#2b2f31;--accent:#8cc7b6;--wash:#1a2421}
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.95 "Noto Sans JP",sans-serif;-webkit-font-smoothing:antialiased}
-  .wrap{max-width:44rem;margin:auto;padding:0 16px} @media(min-width:640px){.wrap{padding:0 24px}}
-  a{color:inherit}
-  .top{padding-top:24px}
-  .back{font-size:.75rem;color:var(--muted);text-decoration:none}.back:hover{color:var(--ink)}
-
-  header{padding:68px 0 44px;border-bottom:1px solid var(--line)}
-  .kicker{margin:0 0 16px;font-size:.7rem;letter-spacing:.24em;color:var(--accent);font-weight:700}
-  h1{font:600 clamp(2rem,5.6vw,3rem)/1.45 "Noto Serif JP",serif;margin:0 0 6px;letter-spacing:.04em}
-  .mn-tagline{font-family:"Noto Serif JP",serif;font-weight:500;font-size:clamp(1.05rem,2.6vw,1.4rem);line-height:1.75;margin:.1em 0 1.1em;opacity:.85}
-  .lead{margin:0;max-width:34em;color:var(--muted)}
-  .toc{display:flex;flex-wrap:wrap;gap:6px 16px;margin:24px 0 0;padding:0;list-style:none;font-size:.82rem}
-  .toc a{color:var(--accent);text-decoration:none}
-
-  section{padding:50px 0;border-bottom:1px solid var(--line)}
-  .sec-n{display:block;font-size:.7rem;letter-spacing:.2em;color:var(--accent);font-weight:700;margin-bottom:6px}
-  h2{font:600 1.5rem/1.5 "Noto Serif JP",serif;margin:0 0 16px;letter-spacing:.03em}
-  h3{font:600 1.08rem/1.6 "Noto Serif JP",serif;margin:28px 0 10px}
-  p{margin:0 0 16px}
-  .pull{margin:22px 0;padding:4px 0 4px 18px;border-left:2px solid var(--accent);font:500 1.12rem/1.8 "Noto Serif JP",serif}
-
-  ul.points{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:10px}
-  ul.points li{padding:14px 18px;background:var(--surface);border:1px solid var(--line);border-radius:4px;font-size:.94rem}
-  ul.points b{display:block;font-family:"Noto Serif JP",serif;font-weight:600;margin-bottom:2px}
-  ul.points span{color:var(--muted)}
-
-  .pair{display:grid;grid-template-columns:1fr;gap:12px;margin:16px 0}
-  @media(min-width:640px){.pair{grid-template-columns:1fr 1fr}}
-  .pair div{padding:16px 18px;border:1px solid var(--line);border-radius:4px;background:var(--surface)}
-  .pair h4{margin:0 0 4px;font-size:.72rem;letter-spacing:.16em;color:var(--accent)}
-  .pair p{margin:0;font-size:.92rem;color:var(--muted)}
-
-  .note{padding:26px;background:var(--wash);border-radius:4px}
-  .note h2{font-size:1.24rem}
-  .note ul{margin:12px 0 0;padding-left:1.2em}
-  .note li{margin:0 0 9px}
-
-  .src{border-top:1px solid var(--line);margin-top:16px}
-  .src a{display:flex;justify-content:space-between;gap:14px;padding:10px 2px;border-bottom:1px solid var(--line);text-decoration:none;font-size:.92rem}
-  .src a:hover{color:var(--accent)}
-  .src small{color:var(--faint);font-size:.76rem;white-space:nowrap}
-
-  footer{padding:34px 0 60px;color:var(--faint);font-size:.76rem}
-  footer .related{color:var(--muted);font-size:.86rem;margin-bottom:16px}
-  footer .related a{color:var(--accent)}
-  .ladder{list-style:none;margin:18px 0 0;padding:0;counter-reset:l}
-  .ladder li{position:relative;padding:10px 0 10px 40px;border-bottom:1px dashed var(--line);font-size:.94rem}
-  .ladder li::before{counter-increment:l;content:counter(l);position:absolute;left:0;top:10px;width:26px;height:26px;border-radius:50%;background:var(--wash);color:var(--accent);font-weight:700;font-size:.8rem;display:grid;place-items:center}
-  .ladder b{font-family:"Noto Serif JP",serif;font-weight:600;margin-right:8px}
-  .ladder span{color:var(--muted)}
-  .places h3 small{font:700 .66rem/1 "Noto Sans JP",sans-serif;letter-spacing:.18em;color:var(--accent);margin-left:8px}
-  .date{font-size:.72rem;letter-spacing:.08em;color:var(--accent);margin-right:8px;font-family:"Noto Sans JP",sans-serif}
-  .empty{color:var(--faint);font-size:.88rem}
-</style>
+<link rel="stylesheet" href="style.css?v=771069a8">
 </head>
 <body>
-<main class="wrap">
-  <div class="top"><a class="back" href="../joy/">← これから</a></div>
-  <header>
-    <p class="kicker">TRAVEL</p>
-    <h1>旅</h1>
-    <p class="mn-tagline">危険ではなく、未知に触れに行く。</p>
-    <p class="lead">美しい景色に心から感動したい。古い建物や絵画の前で、それを作った人たちに思いを馳せたい。気の向くままに旅をし、自然の中で過ごし、街を歩く。いつもの散歩道を一本変えることから海外まで、旅についての考えと、行きたい場所・行ったところをまとめていくノートです。</p>
+<!-- アイコンは線画のまま埋め込んでおく。外から取りに行かないので表示が遅れない。
+     三枚とも同じ束を持たせる。一枚だけ足し忘れると、そのページの丸だけが空になる。
+     足し忘れは build_items.py の check_icons が見つけて止める。 -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+  <symbol id="ic-grid" viewBox="0 0 24 24">
+    <rect x="3.5" y="3.5" width="7.2" height="7.2" rx="1.5"/>
+    <rect x="13.3" y="3.5" width="7.2" height="7.2" rx="1.5"/>
+    <rect x="3.5" y="13.3" width="7.2" height="7.2" rx="1.5"/>
+    <rect x="13.3" y="13.3" width="7.2" height="7.2" rx="1.5"/></symbol>
+  <symbol id="ic-calendar" viewBox="0 0 24 24">
+    <rect x="3.4" y="5.2" width="17.2" height="15.4" rx="2.4"/>
+    <path d="M3.4 10h17.2M8.4 3.4v3.6M15.6 3.4v3.6"/></symbol>
+  <symbol id="ic-heart" viewBox="0 0 24 24">
+    <path d="M12 20.2S3.6 15.3 3.6 9.6A4.6 4.6 0 0 1 12 7a4.6 4.6 0 0 1 8.4 2.6c0 5.7-8.4 10.6-8.4 10.6z"/></symbol>
+  <symbol id="ic-bookmark" viewBox="0 0 24 24">
+    <path d="M6.4 3.8h11.2v16.8L12 16.4l-5.6 4.2z"/></symbol>
+  <symbol id="ic-info" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="8.6"/><path d="M12 11.4v5M12 7.8h.01"/></symbol>
+  <symbol id="ic-book" viewBox="0 0 24 24">
+    <path d="M12 7.6C12 6 10 4.6 6.6 4.6H3.6v13h3.5c2.9 0 4.9 1.2 4.9 2.4"/>
+    <path d="M12 7.6C12 6 14 4.6 17.4 4.6h3v13h-3.5c-2.9 0-4.9 1.2-4.9 2.4"/><path d="M12 7.6V20"/></symbol>
+  <symbol id="ic-pin" viewBox="0 0 24 24"><path d="M12 21s6.8-6 6.8-11A6.8 6.8 0 1 0 5.2 10c0 5 6.8 11 6.8 11z"/><circle cx="12" cy="10" r="2.6"/></symbol>
+  <symbol id="ic-tree" viewBox="0 0 24 24"><circle cx="12" cy="8.5" r="5"/><path d="M12 13.5V21"/><path d="M12 17.5 9 15"/><path d="M12 16l3-2.5"/><path d="M9.5 21h5"/></symbol>
+  <symbol id="ic-home" viewBox="0 0 24 24">
+      <path d="M3.6 10.4 12 3.6l8.4 6.8v9.1a.9.9 0 0 1-.9.9H4.5a.9.9 0 0 1-.9-.9z"/>
+      <path d="M9.6 20.4v-6h4.8v6"/></symbol>
+  <symbol id="ic-frame" viewBox="0 0 24 24"><rect x="3.4" y="4" width="17.2" height="14" rx="1.8"/><path d="m6.6 15.2 3.4-4.2 2.6 3 2.2-2.4 2.6 3.6"/><circle cx="9.2" cy="8.4" r="1.1"/><path d="M9 20.6h6"/></symbol>
+  <symbol id="ic-bath" viewBox="0 0 24 24"><path d="M3 12h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M6 12V6.5a2.2 2.2 0 0 1 4.4 0"/><path d="M7 19l-1 2"/><path d="M17 19l1 2"/></symbol>
+  <symbol id="ic-tent" viewBox="0 0 24 24"><path d="M12 4 3 20h18z"/><path d="M12 10 8 20"/><path d="M12 10l4 10"/></symbol>
+  <symbol id="ic-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6"/><path d="M3.4 12h17.2"/><path d="M12 3.4c2.4 2.4 3.6 5.3 3.6 8.6S14.4 18.2 12 20.6"/><path d="M12 3.4C9.6 5.8 8.4 8.7 8.4 12s1.2 6.2 3.6 8.6"/></symbol>
+  <symbol id="ic-star" viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.5 6 .8-4.3 4.2 1 6-5.3-2.8-5.3 2.8 1-6L3.4 9.8l6-.8z"/></symbol>
+  <symbol id="ic-sparkle" viewBox="0 0 24 24"><path d="M11 3l1.7 4.8L17.5 9.5l-4.8 1.7L11 16l-1.7-4.8L4.5 9.5l4.8-1.7z"/><path d="M17.5 15l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></symbol>
+</defs></svg>
+
+<div class="wrap">
+  <div class="top"><a class="back" href="../">← m-note トップ</a></div>
+
+  <header class="hero">
+    <p class="eyebrow">PLACES</p>
+    <h1>場所・旅行</h1>
     <ul class="toc">
-      <li><a href="#why">なぜ旅をするのか</a></li>
-      <li><a href="#steps">非日常の段階</a></li>
-      <li><a href="#touch">旅で触れたいもの</a></li>
-      <li><a href="#places">行きたい場所・行ったところ</a></li>
-      <li><a href="#support">旅を支えるしくみ</a></li>
-      <li><a href="#open">まだ確かめていること</a></li>
+      <li><a href="#genre"><svg class="ic"><use href="#ic-grid"/></svg>領域別</a></li>
+      <li><a href="#years"><svg class="ic"><use href="#ic-calendar"/></svg>年別</a></li>
+      <li><a href="note.html"><svg class="ic"><use href="#ic-book"/></svg>旅のノート</a></li>
+      <li><a href="picks.html"><svg class="ic"><use href="#ic-heart"/></svg>また行きたいところ</a></li>
+      <li><a href="want.html"><svg class="ic"><use href="#ic-bookmark"/></svg>行きたいところ</a></li>
+      <li><a href="#caution"><svg class="ic"><use href="#ic-info"/></svg>読むときの注意</a></li>
     </ul>
   </header>
 
-  <section id="why">
-    <span class="sec-n">01</span>
-    <h2>なぜ旅をするのか</h2>
-    <p class="pull">いろいろな世界を見られてよかった、と思える人生にしたい。</p>
-    <p><a href="../way-of-life/">生き方</a>で決めたのは、自分の意思で自由に生き、世界を知る楽しさと豊かな体験を味わうこと。知りたいのは知識だけではない。景色の壮大さに感動すること、街の空気や人の暮らしに触れることも、世界を知ることの一部です。</p>
-    <p>旅は、生き方の柱「歩く」をそのまま形にしたもの。役に立つかどうかではなく、見て、感じて、思い出として残ることに価値がある。</p>
+  <section id="genre">
+    <div class="cat-h"><svg class="ic"><use href="#ic-grid"/></svg><h2>領域別</h2>
+      <span class="en">GENRES</span><span class="n" data-count="uses"></span></div>
+    <div class="cat-rule"></div>
+    <div class="uses" data-uses><p class="empty">読み込み中…</p></div>
+    <p class="aside" data-left></p>
   </section>
 
-  <section id="steps">
-    <span class="sec-n">02</span>
-    <h2>非日常の段階</h2>
-    <p class="pull">惹かれていたのは危険ではなく、普段の自分が経験していないことだった。</p>
-    <p>日常は安心をくれる。非日常は、刺激から発見、学び、成長へとつながっていく。どちらか一方ではなく、両方が要る。そして非日常は、必ずしも大きな挑戦である必要はない。</p>
-    <ol class="ladder">
-      <li><b>日常の小さな変化</b><span>散歩道を一本変える。初めての店に入る。</span></li>
-      <li><b>新しい場所・人・趣味</b><span>行ったことのない街へ。週末に別の場所に泊まる。</span></li>
-      <li><b>旅行・冒険</b><span>山に登る。飛行機に乗って遠くへ。海外へ。</span></li>
-      <li><b>強いスリル</b><span>安全に管理されたスリルと、コントロールできない危険は別物として分ける。</span></li>
-    </ol>
-    <p style="margin-top:18px">住まいを変えたい気持ちの中にも、「生活に変化がほしい」が混ざっていた。それは引っ越さなくても、小旅行で満たせるかもしれない。<strong>住環境をよくすることと、暮らしに刺激を足すことは、分けて考えていい。</strong></p>
-    <h3>キャンプは、段階を自分で選べる</h3>
-    <p>この段ばしごを、遠くへ行かずに登れる方法がキャンプでした。テントと寝袋があれば、泊まる場所を変えるだけで二段目に入れる。山と組み合わせれば三段目になる。飛行機や長い休みを待たなくていい。</p>
-    <p>道具はすでに揃っています ― テント、寝袋、折りたたみのテーブル、調理の道具（<a href="../favorites/#hobby">お気に入り</a>に並べています）。<strong>揃っているのは、出かける用意ができているということ</strong>です。</p>
+  <section id="years">
+    <div class="cat-h"><svg class="ic"><use href="#ic-calendar"/></svg><h2>年別</h2>
+      <span class="en">BY YEAR</span><span class="n" data-count="all"></span></div>
+    <div class="cat-rule"></div>
+    <div data-years><p class="empty">読み込み中…</p></div>
   </section>
 
-  <section id="touch">
-    <span class="sec-n">03</span>
-    <h2>旅で触れたいもの</h2>
-    <ul class="points">
-      <li><b>自然</b><span>景色の雄大さ。そして、川を泳ぐ魚のように、自然の中で生き物が動いている様子。植物と水と生き物の組み合わせが、自分の心をいちばん落ち着かせる。</span></li>
-      <li><b>街と建築、美術</b><span>見て終わるのではなく、誰がどんな思想で作ったのか、どんな時代だったのかを想像する。それが、自分にとっての「観察」。</span></li>
-      <li><b>人</b><span>人と話して、新しい考え方に触れる。一人でじっくり味わう時間にも、同じくらい価値がある。</span></li>
-      <li><b>体を使うこと</b><span>登山はきつかった。それでも頂上で、下山したあとで、眠る前に、強い喜びがあった。大変だったからこそ、そのあとが大きかった。</span></li>
-    </ul>
-    <div class="pair">
-      <div><h4>見る</h4><p>写真を撮って、眺めて終わる。</p></div>
-      <div><h4>感じる</h4><p>写真を見るたびに、その場所と、そのときの感情がよみがえる。旅は記憶として、あとから育っていく。</p></div>
-    </div>
+  <section id="caution">
+    <details class="caution">
+      <summary><svg class="ic"><use href="#ic-info"/></svg>読むときの注意<span class="cue"></span></summary>
+      <div class="cbody">
+        <p><strong>これは記録で、案内ではありません。</strong>自分が行ったところを書きとめているだけです。行き方や見どころを説明するものではありません。</p>
+        <p><strong>季節と時間で変わります。</strong>同じ場所でも、行った時期によってまったく違って見えます。ここに書いてあるのは、そのとき行ったときの印象です。</p>
+        <p><strong>場所を特定できる書き方はしていません。</strong>住所や、どこに住んでいるかが分かる呼び方は避けています。日付も月までにしています。</p>
+      </div>
+    </details>
   </section>
-
-  <section id="places" class="places">
-    <span class="sec-n">04</span>
-    <h2>行きたい場所・行ったところ</h2>
-    <p><a href="../joy/">これから</a>のリストと同じものを、ここにも並べています。行けたら「行ったところ」へ。</p>
-    <h3>行きたい場所<small>WISHES</small></h3>
-    <div data-list="go"><p class="empty">読み込み中…</p></div>
-    <h3>行ったところ<small>MEMORIES</small></h3>
-    <div data-list="went"><p class="empty">読み込み中…</p></div>
-  </section>
-
-  <section id="support">
-    <span class="sec-n">05</span>
-    <h2>旅を支えるしくみ</h2>
-    <p class="pull">飛行機に乗るためにマイルを貯めるのではなく、普段の生活費からマイルを生み出して、飛行機に乗る。</p>
-    <p>旅のために特別に頑張るより、いつもの暮らしの中に、旅につながる流れをつくっておきたい。ただし、これはお金を増やす話ではなく、旅に出やすくするための工夫。<a href="../money/">おかね</a>に心を支配されない範囲で。</p>
-    <ul class="points">
-      <li><b>表示価格ではなく、総額で比べる</b><span>安く見える便も、荷物や座席、空港までの移動まで含めると差が縮まることがある。</span></li>
-      <li><b>貯めることと、予約することは別</b><span>行きたい時期が決まっているなら、いつ予約を動かすかまで含めて考える。</span></li>
-      <li><b>小さな旅は、すぐできる</b><span>大きな旅の準備を待たずに、行ったことのない街へ、まず週末に。</span></li>
-      <li><b>道具が揃っていること自体が、しくみ</b><span>キャンプの道具をひと通り持っていると、準備の段階が短くなる。出かけない理由が「用意していないから」ではなくなる。</span></li>
-    </ul>
-  </section>
-
-  <section id="open">
-    <div class="note">
-      <h2>このノートで、まだ確かめていること</h2>
-      <ul>
-        <li>安定した日常と、刺激をくれる非日常。自分にとってちょうどいいバランスはどこにあるのか。</li>
-        <li>登山のあとの、あのすっきりした感覚は何から来ていたのか。体を動かしたこと、自然、頂上という目標、乗り越えたこと、非日常。どれがいちばん大きかったのか。</li>
-        <li>海外の、心を動かされる場所とは、具体的にどこなのか。</li>
-        <li>旅・自然・街・芸術に、いまどれくらい時間を使えているのか。</li>
-      
-        <li>キャンプの道具は揃っているのに、行く回数が少ないのはなぜか</li></ul>
-    </div>
-  </section>
-
-  <section style="border-bottom:none">
-    <h2 style="font-size:1.2rem">このノートの元になったつぶやき</h2>
-    <nav class="src">
-      <a href="../musings/posts/p148.html">振り回されず、自分の意思で<small>2026.10.12</small></a>
-      <a href="../musings/posts/p143.html">きつかったけど、いい気持ちだった<small>2026.10.05</small></a>
-      <a href="../musings/posts/p072.html">気に入っているけど、もっと良いなら<small>2026.08.13</small></a>
-      <a href="../musings/posts/p067.html">景色ではなく、心を整える環境<small>2026.08.11</small></a>
-      <a href="../musings/posts/p065.html">危険にではなく、未知に惹かれていた<small>2026.08.11</small></a>
-      <a href="../musings/posts/p060.html">見るから、感じるへ<small>2026.08.09</small></a>
-      <a href="../musings/posts/p057.html">普段の生活費から、飛行機に乗る<small>2026.08.09</small></a>
-    </nav>
-  </section>
-
   <footer>
-    <p class="related">あわせて読む：<a href="../way-of-life/">生き方</a> ・ <a href="../joy/">これから</a> ・ <a href="../way-of-creating/">創り方</a> ・ <a href="../health-habits/">健康</a></p>
-    <p>専門家ではない個人が、自分のために書きとめている個人的なノートです。</p>
-    <p><a class="back" href="../joy/">← これから</a>　<a class="back" href="../">← m-note トップ</a></p>
+    <p>もう一度行きたいと思ったところは <a href="picks.html">また行きたいところ</a> に、まだ行っていないところは <a href="want.html">行きたいところ</a> にまとめています。</p>
+    <p>なぜ旅をするのか、非日常の段階、旅を支えるしくみは <a href="note.html">旅のノート</a> に書いています。</p>
+    <p>やったことは <a href="../life-hacks/">経験・体験</a> に、持っているものは <a href="../favorites/">モノ</a> に書いています。</p>
+    <p><a class="back" href="../">← m-note トップ</a></p>
   </footer>
-</main>
-<script>
-// 行きたい場所・行ったところは、楽しみ方の items.json (future.go / past.went) を読む
-const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const safeUrl = u => { if (!u) return null; try { const url = new URL(String(u), new URL("../joy/", location.href)); return (url.protocol === "http:" || url.protocol === "https:") && url.origin === location.origin ? url.href : null; } catch { return null; } };
-function render(data){
-  const lists = { go: (data.future || {}).go || [], went: (data.past || {}).went || [] };
-  for (const [key, list] of Object.entries(lists)) {
-    document.querySelector(`[data-list="${key}"]`).innerHTML = list.length
-      ? `<ul class="points">${list.map(it => `<li><b>${it.date ? `<span class="date">${esc(it.date)}</span>` : ""}${esc(it.title)}</b>${it.memo ? `<span>${esc(it.memo)}</span>` : ""}${safeUrl(it.source) && !safeUrl(it.source).includes("/travel/") ? ` <a href="${esc(safeUrl(it.source))}" style="color:var(--faint);font-size:.76rem;text-decoration:none">元になった記録 →</a>` : ""}</li>`).join("")}</ul>`
-      : `<p class="empty">まだありません。</p>`;
-  }
-}
-fetch("../joy/items.json").then(r => r.json()).then(render).catch(() => render({}));
-</script>
+</div>
+<script src="app.js?v=771069a8"></script>
 </body>
 </html>
