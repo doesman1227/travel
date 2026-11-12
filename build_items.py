@@ -35,6 +35,40 @@ mountain-climb|週末の登山|2026|||../musings/posts/p143.html
 park|鳥の多い公園||||
 gym-bath|ジムの大きなお風呂||||
 cinema|映画館||||
+konpira|金毘羅宮||||
+karasawa|涸沢カール||||
+kamikochi|上高地||||
+fukashima|深島||||
+letao|ルタオ本店||||
+oze|尾瀬ヶ原||||
+imai-sakura|今井の桜||||
+yamanohana|尾瀬 山の鼻小屋||||
+bana|馬菜 銀座本店||||
+imakin|お食事処 いまきん食堂||||
+kabeyu|壁湯温泉 共同浴場||||
+yufugawa|由布川峡谷||||
+tomonaga|友永パン屋||||
+suisaitei|水哉亭||||
+himebotaru|ヒメボタルの見られる場所||||
+daikanbo|大観峰||||
+bogatsuru|坊ガツル||||
+futagami|二上神社||||
+tenan|そば処 天庵||||
+hatozu|波当津海水浴場||||
+shioyu|塩湯||||
+matama|真玉海岸||||
+mamedake|豆岳珈琲||||
+gyosantei|魚山亭||||
+ebisumaru|市場食堂 ゑびす丸||||
+teshima|豊島美術館||||
+okunoin|高野山 奥之院||||
+british-villa|英国大使館別荘記念公園||||
+nantai|日本料理 なんたい||||
+zenjiro|たんや善治郎 仙台駅牛たん通り店||||
+mikoda|盛岡神子田朝市||||
+yukyu|悠久||||
+shichibei|観音食堂 丼屋 七兵衛||||
+shichifuku|七福温泉 宇戸の庄||閉業||
 """
 
 # また行きたいところ。ここに載せた分だけ picks.html に出る。
@@ -45,6 +79,41 @@ PICKS = {
     "park": "家からすぐ行ける。いまの家を気に入っている理由のひとつ。",
     "gym-bath": "運動のあとにほどける。人のいる場所にいることも目的のうち。",
     "cinema": "週末に行く。日常から離れて作品に入る時間。",
+    # ここから下は Google マップの「また行きたい場所」リストから移した。
+    # 理由はまだ書いていないので、ひとまず場所の種類を入れてある。
+    "konpira": "神社",
+    "karasawa": "景勝地",
+    "kamikochi": "景勝地",
+    "fukashima": "島",
+    "letao": "洋菓子店",
+    "oze": "自然保護公園",
+    "imai-sakura": "観光名所",
+    "yamanohana": "山小屋",
+    "bana": "レストラン",
+    "imakin": "和食店",
+    "kabeyu": "日帰り温泉",
+    "yufugawa": "景勝地",
+    "tomonaga": "ベーカリー",
+    "suisaitei": "魚料理店",
+    "himebotaru": "ヒメボタル",
+    "daikanbo": "山頂",
+    "bogatsuru": "観光名所",
+    "futagami": "神社",
+    "tenan": "蕎麦店",
+    "hatozu": "浜",
+    "shioyu": "海鮮料理店",
+    "matama": "景勝地",
+    "mamedake": "カフェ・喫茶",
+    "gyosantei": "海鮮料理店",
+    "ebisumaru": "海鮮料理店",
+    "teshima": "美術館",
+    "okunoin": "仏教寺院",
+    "british-villa": "記念公園",
+    "nantai": "純和食店",
+    "zenjiro": "牛タン店",
+    "mikoda": "マーケット",
+    "yukyu": "寿司店",
+    "shichibei": "海鮮丼専門店",
 }
 
 # 行ってみたいところ。区切りは | で、順番は
@@ -70,11 +139,26 @@ USES = """
   おふろ|gym-bath
   映画館|cinema
 自然|NATURE|tree|note.html#touch
+  景勝地|kamikochi,yufugawa,daikanbo
+  湿原|oze
+  島と海|fukashima,hatozu,matama
+  桜とホタル|imai-sakura,himebotaru
 街と建築|TOWN|home|note.html#touch
+  寺社|konpira,futagami,okunoin
+  建築と公園|british-villa
+  市場|mikoda
 美術と展示|ART|frame|note.html#touch
+  美術館|teshima
 温泉と宿|ONSEN|bath|
+  温泉|kabeyu,shichifuku
+  山小屋|yamanohana
 キャンプと山|CAMP|tent|note.html#steps
   登山|mountain-climb
+  山|karasawa,bogatsuru
+食べもの|FOOD|meal|
+  和食|bana,imakin,tenan,nantai,zenjiro
+  海鮮|suisaitei,shioyu,gyosantei,ebisumaru,yukyu,shichibei
+  パンと菓子と喫茶|letao,tomonaga,mamedake
 遠くの国|ABROAD|globe|note.html#support
 """
 

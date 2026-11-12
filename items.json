@@ -30,6 +30,244 @@
       "memo": "週末に行く。日常から離れて作品に入る時間。",
       "use": "近所と日常",
       "sub": "映画館"
+    },
+    {
+      "slug": "konpira",
+      "title": "金毘羅宮",
+      "memo": "神社",
+      "use": "街と建築",
+      "sub": "寺社"
+    },
+    {
+      "slug": "karasawa",
+      "title": "涸沢カール",
+      "memo": "景勝地",
+      "use": "キャンプと山",
+      "sub": "山"
+    },
+    {
+      "slug": "kamikochi",
+      "title": "上高地",
+      "memo": "景勝地",
+      "use": "自然",
+      "sub": "景勝地"
+    },
+    {
+      "slug": "fukashima",
+      "title": "深島",
+      "memo": "島",
+      "use": "自然",
+      "sub": "島と海"
+    },
+    {
+      "slug": "letao",
+      "title": "ルタオ本店",
+      "memo": "洋菓子店",
+      "use": "食べもの",
+      "sub": "パンと菓子と喫茶"
+    },
+    {
+      "slug": "oze",
+      "title": "尾瀬ヶ原",
+      "memo": "自然保護公園",
+      "use": "自然",
+      "sub": "湿原"
+    },
+    {
+      "slug": "imai-sakura",
+      "title": "今井の桜",
+      "memo": "観光名所",
+      "use": "自然",
+      "sub": "桜とホタル"
+    },
+    {
+      "slug": "yamanohana",
+      "title": "尾瀬 山の鼻小屋",
+      "memo": "山小屋",
+      "use": "温泉と宿",
+      "sub": "山小屋"
+    },
+    {
+      "slug": "bana",
+      "title": "馬菜 銀座本店",
+      "memo": "レストラン",
+      "use": "食べもの",
+      "sub": "和食"
+    },
+    {
+      "slug": "imakin",
+      "title": "お食事処 いまきん食堂",
+      "memo": "和食店",
+      "use": "食べもの",
+      "sub": "和食"
+    },
+    {
+      "slug": "kabeyu",
+      "title": "壁湯温泉 共同浴場",
+      "memo": "日帰り温泉",
+      "use": "温泉と宿",
+      "sub": "温泉"
+    },
+    {
+      "slug": "yufugawa",
+      "title": "由布川峡谷",
+      "memo": "景勝地",
+      "use": "自然",
+      "sub": "景勝地"
+    },
+    {
+      "slug": "tomonaga",
+      "title": "友永パン屋",
+      "memo": "ベーカリー",
+      "use": "食べもの",
+      "sub": "パンと菓子と喫茶"
+    },
+    {
+      "slug": "suisaitei",
+      "title": "水哉亭",
+      "memo": "魚料理店",
+      "use": "食べもの",
+      "sub": "海鮮"
+    },
+    {
+      "slug": "himebotaru",
+      "title": "ヒメボタルの見られる場所",
+      "memo": "ヒメボタル",
+      "use": "自然",
+      "sub": "桜とホタル"
+    },
+    {
+      "slug": "daikanbo",
+      "title": "大観峰",
+      "memo": "山頂",
+      "use": "自然",
+      "sub": "景勝地"
+    },
+    {
+      "slug": "bogatsuru",
+      "title": "坊ガツル",
+      "memo": "観光名所",
+      "use": "キャンプと山",
+      "sub": "山"
+    },
+    {
+      "slug": "futagami",
+      "title": "二上神社",
+      "memo": "神社",
+      "use": "街と建築",
+      "sub": "寺社"
+    },
+    {
+      "slug": "tenan",
+      "title": "そば処 天庵",
+      "memo": "蕎麦店",
+      "use": "食べもの",
+      "sub": "和食"
+    },
+    {
+      "slug": "hatozu",
+      "title": "波当津海水浴場",
+      "memo": "浜",
+      "use": "自然",
+      "sub": "島と海"
+    },
+    {
+      "slug": "shioyu",
+      "title": "塩湯",
+      "memo": "海鮮料理店",
+      "use": "食べもの",
+      "sub": "海鮮"
+    },
+    {
+      "slug": "matama",
+      "title": "真玉海岸",
+      "memo": "景勝地",
+      "use": "自然",
+      "sub": "島と海"
+    },
+    {
+      "slug": "mamedake",
+      "title": "豆岳珈琲",
+      "memo": "カフェ・喫茶",
+      "use": "食べもの",
+      "sub": "パンと菓子と喫茶"
+    },
+    {
+      "slug": "gyosantei",
+      "title": "魚山亭",
+      "memo": "海鮮料理店",
+      "use": "食べもの",
+      "sub": "海鮮"
+    },
+    {
+      "slug": "ebisumaru",
+      "title": "市場食堂 ゑびす丸",
+      "memo": "海鮮料理店",
+      "use": "食べもの",
+      "sub": "海鮮"
+    },
+    {
+      "slug": "teshima",
+      "title": "豊島美術館",
+      "memo": "美術館",
+      "use": "美術と展示",
+      "sub": "美術館"
+    },
+    {
+      "slug": "okunoin",
+      "title": "高野山 奥之院",
+      "memo": "仏教寺院",
+      "use": "街と建築",
+      "sub": "寺社"
+    },
+    {
+      "slug": "british-villa",
+      "title": "英国大使館別荘記念公園",
+      "memo": "記念公園",
+      "use": "街と建築",
+      "sub": "建築と公園"
+    },
+    {
+      "slug": "nantai",
+      "title": "日本料理 なんたい",
+      "memo": "純和食店",
+      "use": "食べもの",
+      "sub": "和食"
+    },
+    {
+      "slug": "zenjiro",
+      "title": "たんや善治郎 仙台駅牛たん通り店",
+      "memo": "牛タン店",
+      "use": "食べもの",
+      "sub": "和食"
+    },
+    {
+      "slug": "mikoda",
+      "title": "盛岡神子田朝市",
+      "memo": "マーケット",
+      "use": "街と建築",
+      "sub": "市場"
+    },
+    {
+      "slug": "yukyu",
+      "title": "悠久",
+      "memo": "寿司店",
+      "use": "食べもの",
+      "sub": "海鮮"
+    },
+    {
+      "slug": "shichibei",
+      "title": "観音食堂 丼屋 七兵衛",
+      "memo": "海鮮丼専門店",
+      "use": "食べもの",
+      "sub": "海鮮"
+    },
+    {
+      "slug": "shichifuku",
+      "title": "七福温泉 宇戸の庄",
+      "note": "閉業",
+      "use": "温泉と宿",
+      "sub": "温泉"
     }
   ],
   "wants": [
@@ -90,32 +328,46 @@
       "en": "NATURE",
       "icon": "tree",
       "ref": "note.html#touch",
-      "subs": [],
-      "n": 0
+      "subs": [
+        "景勝地",
+        "湿原",
+        "島と海",
+        "桜とホタル"
+      ],
+      "n": 9
     },
     {
       "name": "街と建築",
       "en": "TOWN",
       "icon": "home",
       "ref": "note.html#touch",
-      "subs": [],
-      "n": 0
+      "subs": [
+        "寺社",
+        "建築と公園",
+        "市場"
+      ],
+      "n": 5
     },
     {
       "name": "美術と展示",
       "en": "ART",
       "icon": "frame",
       "ref": "note.html#touch",
-      "subs": [],
-      "n": 0
+      "subs": [
+        "美術館"
+      ],
+      "n": 1
     },
     {
       "name": "温泉と宿",
       "en": "ONSEN",
       "icon": "bath",
       "ref": "",
-      "subs": [],
-      "n": 0
+      "subs": [
+        "温泉",
+        "山小屋"
+      ],
+      "n": 3
     },
     {
       "name": "キャンプと山",
@@ -123,9 +375,22 @@
       "icon": "tent",
       "ref": "note.html#steps",
       "subs": [
-        "登山"
+        "登山",
+        "山"
       ],
-      "n": 1
+      "n": 3
+    },
+    {
+      "name": "食べもの",
+      "en": "FOOD",
+      "icon": "meal",
+      "ref": "",
+      "subs": [
+        "和食",
+        "海鮮",
+        "パンと菓子と喫茶"
+      ],
+      "n": 14
     },
     {
       "name": "遠くの国",
