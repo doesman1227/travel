@@ -162,6 +162,45 @@ USES = """
 遠くの国|ABROAD|globe|note.html#support
 """
 
+# 地図に置くための座標。区切りは | で、順番は slug | 緯度 | 経度。
+# picks.html の地図（map.js）が読む。ここに書いたものだけが点になる。
+# ★近所と日常の場所は書かない。点を置くと、どこに住んでいるかが分かってしまう。
+# ヒメボタルの場所も、座標をそのまま公開することになるので書いていない。
+COORDS = """
+konpira|34.30926|133.82874
+karasawa|36.29330|137.65893
+kamikochi|36.24875|137.63806
+fukashima|32.71904|131.92585
+letao|43.19131|141.00743
+oze|36.93417|139.23030
+imai-sakura|35.83369|140.06468
+yamanohana|36.91601|139.19767
+bana|35.67186|139.76819
+imakin|32.97497|131.03933
+kabeyu|33.20491|131.16957
+yufugawa|33.23528|131.45142
+tomonaga|33.27459|131.50415
+suisaitei|35.72112|139.19757
+daikanbo|32.99637|131.06731
+bogatsuru|33.10139|131.26083
+futagami|32.68692|131.26746
+tenan|32.70994|131.30704
+hatozu|32.74924|131.87249
+shioyu|33.03093|131.92073
+matama|33.62267|131.47303
+mamedake|33.38923|131.11486
+gyosantei|35.53597|133.24632
+ebisumaru|33.82773|132.71384
+teshima|34.48970|134.09033
+okunoin|34.22298|135.60572
+british-villa|36.72660|139.48599
+nantai|36.73958|139.50165
+zenjiro|38.26107|140.88190
+mikoda|39.68838|141.16242
+yukyu|36.31247|140.58239
+shichibei|35.73203|140.83890
+"""
+
 # 領域に入れないもの。いまは無い。
 OUT = """
 """
@@ -169,7 +208,7 @@ OUT = """
 # 領域に出していないものについての一行。出していないものが無ければ空。
 LEFT = ""
 
-ASSETS = ["style.css", "app.js"]
+ASSETS = ["style.css", "app.js", "map.js"]
 PAGES = ["index.html", "picks.html", "want.html"]
 SLUG = re.compile(r"^[a-z0-9-]+$")
 YEAR = re.compile(r"^[12][0-9]{3}$")
@@ -304,6 +343,15 @@ def main():
 
     here = Path(__file__).resolve().parent
     check_icons(here, [u["icon"] for u in uses] + ALWAYS)
+
+    # 地図の座標。ROWS に無い slug や、日本の外に出る値はここで止める。
+    for c in rows(COORDS, ["slug", "lat", "lng"]):
+        if c["slug"] not in by_slug:
+            raise SystemExit(f"COORDS に ROWS に無い slug がある: {c['slug']}")
+        lat, lng = float(c["lat"]), float(c["lng"])
+        if not (20 <= lat <= 46 and 122 <= lng <= 154):
+            raise SystemExit(f"COORDS の座標が日本の外: {c['slug']}")
+        by_slug[c["slug"]]["lat"], by_slug[c["slug"]]["lng"] = lat, lng
 
     # 写真は images/<slug>.jpg に置いてあれば拾う。items.json は生成物なので、
     # 写真があるかどうかはファイルの側で決める（誰も items.json に書き戻さない）。

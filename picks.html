@@ -8,7 +8,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=771069a8">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<style>
+/* 地図。このページにしか無いので、共通の style.css には入れていない。 */
+#map{height:min(62vh,520px);border:1px solid var(--line);border-radius:14px;background:var(--card);z-index:0}
+#map .leaflet-popup-content{margin:11px 14px;font-family:"Noto Sans JP",sans-serif;font-size:.84rem;line-height:1.6}
+#map .leaflet-popup-content b{display:block;font-weight:600}
+#map .leaflet-popup-content a{color:#3d7a6c}
+#map .leaflet-popup-content span{display:block;font-size:.72rem;color:#66625a}
+@media (max-width:600px){#map{height:58vh}}
+</style>
+<link rel="stylesheet" href="style.css?v=6c369d17">
 </head>
 <body>
 <!-- アイコンは線画のまま埋め込んでおく。外から取りに行かないので表示が遅れない。
@@ -56,6 +66,10 @@
     <h1>また行きたいところ</h1>
   </header>
 
+  <section id="where">
+    <div id="map" role="region" aria-label="また行きたいところの地図"></div>
+    <p class="aside"><span data-map-count></span>を地図に置いています。点を押すと名前が出て、そこから Google マップへ進めます。近所の場所は地図には出していません。</p>
+  </section>
   <section id="picks">
     <div class="cats" data-picks><p class="empty">読み込み中…</p></div>
     <p class="aside"><span data-count="picks"></span>。有名な順ではなく、またあの感じを味わいたいと思ったところ。領域ごとに分けてあります。</p>
@@ -66,6 +80,8 @@
     <p><a class="back" href="./">← 場所・旅行</a>　<a class="back" href="../">← m-note トップ</a></p>
   </footer>
 </div>
-<script src="app.js?v=771069a8"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="map.js?v=6c369d17"></script>
+<script src="app.js?v=6c369d17"></script>
 </body>
 </html>

@@ -37,7 +37,9 @@
       "url": "https://www.google.com/maps?cid=1845215252137377470",
       "memo": "神社",
       "use": "街と建築",
-      "sub": "寺社"
+      "sub": "寺社",
+      "lat": 34.30926,
+      "lng": 133.82874
     },
     {
       "slug": "karasawa",
@@ -45,7 +47,9 @@
       "url": "https://www.google.com/maps?cid=8545746145143056529",
       "memo": "景勝地",
       "use": "キャンプと山",
-      "sub": "山"
+      "sub": "山",
+      "lat": 36.2933,
+      "lng": 137.65893
     },
     {
       "slug": "kamikochi",
@@ -53,7 +57,9 @@
       "url": "https://www.google.com/maps?cid=11127904433132550151",
       "memo": "景勝地",
       "use": "自然",
-      "sub": "景勝地"
+      "sub": "景勝地",
+      "lat": 36.24875,
+      "lng": 137.63806
     },
     {
       "slug": "fukashima",
@@ -61,7 +67,9 @@
       "url": "https://www.google.com/maps?cid=8990188063075092287",
       "memo": "島",
       "use": "自然",
-      "sub": "島と海"
+      "sub": "島と海",
+      "lat": 32.71904,
+      "lng": 131.92585
     },
     {
       "slug": "letao",
@@ -69,7 +77,9 @@
       "url": "https://www.google.com/maps?cid=8259555981103032062",
       "memo": "洋菓子店",
       "use": "食べもの",
-      "sub": "パンと菓子と喫茶"
+      "sub": "パンと菓子と喫茶",
+      "lat": 43.19131,
+      "lng": 141.00743
     },
     {
       "slug": "oze",
@@ -77,7 +87,9 @@
       "url": "https://www.google.com/maps?cid=18374088831223961186",
       "memo": "自然保護公園",
       "use": "自然",
-      "sub": "湿原"
+      "sub": "湿原",
+      "lat": 36.93417,
+      "lng": 139.2303
     },
     {
       "slug": "imai-sakura",
@@ -85,7 +97,9 @@
       "url": "https://www.google.com/maps?cid=9536023577075274811",
       "memo": "観光名所",
       "use": "自然",
-      "sub": "桜とホタル"
+      "sub": "桜とホタル",
+      "lat": 35.83369,
+      "lng": 140.06468
     },
     {
       "slug": "yamanohana",
@@ -93,7 +107,9 @@
       "url": "https://www.google.com/maps?cid=10467878208975739562",
       "memo": "山小屋",
       "use": "温泉と宿",
-      "sub": "山小屋"
+      "sub": "山小屋",
+      "lat": 36.91601,
+      "lng": 139.19767
     },
     {
       "slug": "bana",
@@ -101,7 +117,9 @@
       "url": "https://www.google.com/maps?cid=13668996851426507781",
       "memo": "レストラン",
       "use": "食べもの",
-      "sub": "和食"
+      "sub": "和食",
+      "lat": 35.67186,
+      "lng": 139.76819
     },
     {
       "slug": "imakin",
@@ -109,7 +127,9 @@
       "url": "https://www.google.com/maps?cid=15697323929618707803",
       "memo": "和食店",
       "use": "食べもの",
-      "sub": "和食"
+      "sub": "和食",
+      "lat": 32.97497,
+      "lng": 131.03933
     },
     {
       "slug": "kabeyu",
@@ -117,7 +137,9 @@
       "url": "https://www.google.com/maps?cid=3545928650347619119",
       "memo": "日帰り温泉",
       "use": "温泉と宿",
-      "sub": "温泉"
+      "sub": "温泉",
+      "lat": 33.20491,
+      "lng": 131.16957
     },
     {
       "slug": "yufugawa",
@@ -125,7 +147,9 @@
       "url": "https://www.google.com/maps?cid=9119419475049524356",
       "memo": "景勝地",
       "use": "自然",
-      "sub": "景勝地"
+      "sub": "景勝地",
+      "lat": 33.23528,
+      "lng": 131.45142
     },
     {
       "slug": "tomonaga",
@@ -133,7 +157,9 @@
       "url": "https://www.google.com/maps?cid=4605794428648913857",
       "memo": "ベーカリー",
       "use": "食べもの",
-      "sub": "パンと菓子と喫茶"
+      "sub": "パンと菓子と喫茶",
+      "lat": 33.27459,
+      "lng": 131.50415
     },
     {
       "slug": "suisaitei",
@@ -141,7 +167,9 @@
       "url": "https://www.google.com/maps?cid=14777726099188977332",
       "memo": "魚料理店",
       "use": "食べもの",
-      "sub": "海鮮"
+      "sub": "海鮮",
+      "lat": 35.72112,
+      "lng": 139.19757
     },
     {
       "slug": "himebotaru",
@@ -156,7 +184,9 @@
       "url": "https://www.google.com/maps?cid=15192827871379272824",
       "memo": "山頂",
       "use": "自然",
-      "sub": "景勝地"
+      "sub": "景勝地",
+      "lat": 32.99637,
+      "lng": 131.06731
     },
     {
       "slug": "bogatsuru",
@@ -164,7 +194,9 @@
       "url": "https://www.google.com/maps?cid=16973300403295476258",
       "memo": "観光名所",
       "use": "キャンプと山",
-      "sub": "山"
+      "sub": "山",
+      "lat": 33.10139,
+      "lng": 131.26083
     },
     {
       "slug": "futagami",
@@ -172,7 +204,9 @@
       "url": "https://www.google.com/maps?cid=7838751254446397880",
       "memo": "神社",
       "use": "街と建築",
-      "sub": "寺社"
+      "sub": "寺社",
+      "lat": 32.68692,
+      "lng": 131.26746
     },
     {
       "slug": "tenan",
@@ -180,7 +214,9 @@
       "url": "https://www.google.com/maps?cid=6259182303548972728",
       "memo": "蕎麦店",
       "use": "食べもの",
-      "sub": "和食"
+      "sub": "和食",
+      "lat": 32.70994,
+      "lng": 131.30704
     },
     {
       "slug": "hatozu",
@@ -188,7 +224,9 @@
       "url": "https://www.google.com/maps?cid=1708549664130368265",
       "memo": "浜",
       "use": "自然",
-      "sub": "島と海"
+      "sub": "島と海",
+      "lat": 32.74924,
+      "lng": 131.87249
     },
     {
       "slug": "shioyu",
@@ -196,7 +234,9 @@
       "url": "https://www.google.com/maps?cid=6225876405804632663",
       "memo": "海鮮料理店",
       "use": "食べもの",
-      "sub": "海鮮"
+      "sub": "海鮮",
+      "lat": 33.03093,
+      "lng": 131.92073
     },
     {
       "slug": "matama",
@@ -204,7 +244,9 @@
       "url": "https://www.google.com/maps?cid=9837214995606711878",
       "memo": "景勝地",
       "use": "自然",
-      "sub": "島と海"
+      "sub": "島と海",
+      "lat": 33.62267,
+      "lng": 131.47303
     },
     {
       "slug": "mamedake",
@@ -212,7 +254,9 @@
       "url": "https://www.google.com/maps?cid=2146451082320436219",
       "memo": "カフェ・喫茶",
       "use": "食べもの",
-      "sub": "パンと菓子と喫茶"
+      "sub": "パンと菓子と喫茶",
+      "lat": 33.38923,
+      "lng": 131.11486
     },
     {
       "slug": "gyosantei",
@@ -220,7 +264,9 @@
       "url": "https://www.google.com/maps?cid=2466491443940294164",
       "memo": "海鮮料理店",
       "use": "食べもの",
-      "sub": "海鮮"
+      "sub": "海鮮",
+      "lat": 35.53597,
+      "lng": 133.24632
     },
     {
       "slug": "ebisumaru",
@@ -228,7 +274,9 @@
       "url": "https://www.google.com/maps?cid=10349574541747357311",
       "memo": "海鮮料理店",
       "use": "食べもの",
-      "sub": "海鮮"
+      "sub": "海鮮",
+      "lat": 33.82773,
+      "lng": 132.71384
     },
     {
       "slug": "teshima",
@@ -236,7 +284,9 @@
       "url": "https://www.google.com/maps?cid=17591016499235052628",
       "memo": "美術館",
       "use": "美術と展示",
-      "sub": "美術館"
+      "sub": "美術館",
+      "lat": 34.4897,
+      "lng": 134.09033
     },
     {
       "slug": "okunoin",
@@ -244,7 +294,9 @@
       "url": "https://www.google.com/maps?cid=4604607727501443422",
       "memo": "仏教寺院",
       "use": "街と建築",
-      "sub": "寺社"
+      "sub": "寺社",
+      "lat": 34.22298,
+      "lng": 135.60572
     },
     {
       "slug": "british-villa",
@@ -252,7 +304,9 @@
       "url": "https://www.google.com/maps?cid=6052535047471249435",
       "memo": "記念公園",
       "use": "街と建築",
-      "sub": "建築と公園"
+      "sub": "建築と公園",
+      "lat": 36.7266,
+      "lng": 139.48599
     },
     {
       "slug": "nantai",
@@ -260,7 +314,9 @@
       "url": "https://www.google.com/maps?cid=5436255483766288672",
       "memo": "純和食店",
       "use": "食べもの",
-      "sub": "和食"
+      "sub": "和食",
+      "lat": 36.73958,
+      "lng": 139.50165
     },
     {
       "slug": "zenjiro",
@@ -268,7 +324,9 @@
       "url": "https://www.google.com/maps?cid=17455946521057700427",
       "memo": "牛タン店",
       "use": "食べもの",
-      "sub": "和食"
+      "sub": "和食",
+      "lat": 38.26107,
+      "lng": 140.8819
     },
     {
       "slug": "mikoda",
@@ -276,7 +334,9 @@
       "url": "https://www.google.com/maps?cid=14982991971668411330",
       "memo": "マーケット",
       "use": "街と建築",
-      "sub": "市場"
+      "sub": "市場",
+      "lat": 39.68838,
+      "lng": 141.16242
     },
     {
       "slug": "yukyu",
@@ -284,7 +344,9 @@
       "url": "https://www.google.com/maps?cid=17394317688544276958",
       "memo": "寿司店",
       "use": "食べもの",
-      "sub": "海鮮"
+      "sub": "海鮮",
+      "lat": 36.31247,
+      "lng": 140.58239
     },
     {
       "slug": "shichibei",
@@ -292,7 +354,9 @@
       "url": "https://www.google.com/maps?cid=13698544910125792317",
       "memo": "海鮮丼専門店",
       "use": "食べもの",
-      "sub": "海鮮"
+      "sub": "海鮮",
+      "lat": 35.73203,
+      "lng": 140.8389
     },
     {
       "slug": "shichifuku",
