@@ -34,6 +34,7 @@
     {
       "slug": "konpira",
       "title": "金毘羅宮",
+      "url": "https://www.google.com/maps?cid=1845215252137377470",
       "memo": "神社",
       "use": "街と建築",
       "sub": "寺社"
@@ -41,6 +42,7 @@
     {
       "slug": "karasawa",
       "title": "涸沢カール",
+      "url": "https://www.google.com/maps?cid=8545746145143056529",
       "memo": "景勝地",
       "use": "キャンプと山",
       "sub": "山"
@@ -48,6 +50,7 @@
     {
       "slug": "kamikochi",
       "title": "上高地",
+      "url": "https://www.google.com/maps?cid=11127904433132550151",
       "memo": "景勝地",
       "use": "自然",
       "sub": "景勝地"
@@ -55,6 +58,7 @@
     {
       "slug": "fukashima",
       "title": "深島",
+      "url": "https://www.google.com/maps?cid=8990188063075092287",
       "memo": "島",
       "use": "自然",
       "sub": "島と海"
@@ -62,6 +66,7 @@
     {
       "slug": "letao",
       "title": "ルタオ本店",
+      "url": "https://www.google.com/maps?cid=8259555981103032062",
       "memo": "洋菓子店",
       "use": "食べもの",
       "sub": "パンと菓子と喫茶"
@@ -69,6 +74,7 @@
     {
       "slug": "oze",
       "title": "尾瀬ヶ原",
+      "url": "https://www.google.com/maps?cid=18374088831223961186",
       "memo": "自然保護公園",
       "use": "自然",
       "sub": "湿原"
@@ -76,6 +82,7 @@
     {
       "slug": "imai-sakura",
       "title": "今井の桜",
+      "url": "https://www.google.com/maps?cid=9536023577075274811",
       "memo": "観光名所",
       "use": "自然",
       "sub": "桜とホタル"
@@ -83,6 +90,7 @@
     {
       "slug": "yamanohana",
       "title": "尾瀬 山の鼻小屋",
+      "url": "https://www.google.com/maps?cid=10467878208975739562",
       "memo": "山小屋",
       "use": "温泉と宿",
       "sub": "山小屋"
@@ -90,6 +98,7 @@
     {
       "slug": "bana",
       "title": "馬菜 銀座本店",
+      "url": "https://www.google.com/maps?cid=13668996851426507781",
       "memo": "レストラン",
       "use": "食べもの",
       "sub": "和食"
@@ -97,6 +106,7 @@
     {
       "slug": "imakin",
       "title": "お食事処 いまきん食堂",
+      "url": "https://www.google.com/maps?cid=15697323929618707803",
       "memo": "和食店",
       "use": "食べもの",
       "sub": "和食"
@@ -104,6 +114,7 @@
     {
       "slug": "kabeyu",
       "title": "壁湯温泉 共同浴場",
+      "url": "https://www.google.com/maps?cid=3545928650347619119",
       "memo": "日帰り温泉",
       "use": "温泉と宿",
       "sub": "温泉"
@@ -111,6 +122,7 @@
     {
       "slug": "yufugawa",
       "title": "由布川峡谷",
+      "url": "https://www.google.com/maps?cid=9119419475049524356",
       "memo": "景勝地",
       "use": "自然",
       "sub": "景勝地"
@@ -118,6 +130,7 @@
     {
       "slug": "tomonaga",
       "title": "友永パン屋",
+      "url": "https://www.google.com/maps?cid=4605794428648913857",
       "memo": "ベーカリー",
       "use": "食べもの",
       "sub": "パンと菓子と喫茶"
@@ -125,6 +138,7 @@
     {
       "slug": "suisaitei",
       "title": "水哉亭",
+      "url": "https://www.google.com/maps?cid=14777726099188977332",
       "memo": "魚料理店",
       "use": "食べもの",
       "sub": "海鮮"
@@ -139,6 +153,7 @@
     {
       "slug": "daikanbo",
       "title": "大観峰",
+      "url": "https://www.google.com/maps?cid=15192827871379272824",
       "memo": "山頂",
       "use": "自然",
       "sub": "景勝地"
@@ -146,6 +161,7 @@
     {
       "slug": "bogatsuru",
       "title": "坊ガツル",
+      "url": "https://www.google.com/maps?cid=16973300403295476258",
       "memo": "観光名所",
       "use": "キャンプと山",
       "sub": "山"
@@ -153,6 +169,7 @@
     {
       "slug": "futagami",
       "title": "二上神社",
+      "url": "https://www.google.com/maps?cid=7838751254446397880",
       "memo": "神社",
       "use": "街と建築",
       "sub": "寺社"
@@ -160,6 +177,7 @@
     {
       "slug": "tenan",
       "title": "そば処 天庵",
+      "url": "https://www.google.com/maps?cid=6259182303548972728",
       "memo": "蕎麦店",
       "use": "食べもの",
       "sub": "和食"
@@ -167,6 +185,7 @@
     {
       "slug": "hatozu",
       "title": "波当津海水浴場",
+      "url": "https://www.google.com/maps?cid=1708549664130368265",
       "memo": "浜",
       "use": "自然",
       "sub": "島と海"
@@ -174,6 +193,7 @@
     {
       "slug": "shioyu",
       "title": "塩湯",
+      "url": "https://www.google.com/maps?cid=6225876405804632663",
       "memo": "海鮮料理店",
       "use": "食べもの",
       "sub": "海鮮"
@@ -181,6 +201,7 @@
     {
       "slug": "matama",
       "title": "真玉海岸",
+      "url": "https://www.google.com/maps?cid=9837214995606711878",
       "memo": "景勝地",
       "use": "自然",
       "sub": "島と海"
@@ -188,6 +209,7 @@
     {
       "slug": "mamedake",
       "title": "豆岳珈琲",
+      "url": "https://www.google.com/maps?cid=2146451082320436219",
       "memo": "カフェ・喫茶",
       "use": "食べもの",
       "sub": "パンと菓子と喫茶"
@@ -195,6 +217,7 @@
     {
       "slug": "gyosantei",
       "title": "魚山亭",
+      "url": "https://www.google.com/maps?cid=2466491443940294164",
       "memo": "海鮮料理店",
       "use": "食べもの",
       "sub": "海鮮"
@@ -202,6 +225,7 @@
     {
       "slug": "ebisumaru",
       "title": "市場食堂 ゑびす丸",
+      "url": "https://www.google.com/maps?cid=10349574541747357311",
       "memo": "海鮮料理店",
       "use": "食べもの",
       "sub": "海鮮"
@@ -209,6 +233,7 @@
     {
       "slug": "teshima",
       "title": "豊島美術館",
+      "url": "https://www.google.com/maps?cid=17591016499235052628",
       "memo": "美術館",
       "use": "美術と展示",
       "sub": "美術館"
@@ -216,6 +241,7 @@
     {
       "slug": "okunoin",
       "title": "高野山 奥之院",
+      "url": "https://www.google.com/maps?cid=4604607727501443422",
       "memo": "仏教寺院",
       "use": "街と建築",
       "sub": "寺社"
@@ -223,6 +249,7 @@
     {
       "slug": "british-villa",
       "title": "英国大使館別荘記念公園",
+      "url": "https://www.google.com/maps?cid=6052535047471249435",
       "memo": "記念公園",
       "use": "街と建築",
       "sub": "建築と公園"
@@ -230,6 +257,7 @@
     {
       "slug": "nantai",
       "title": "日本料理 なんたい",
+      "url": "https://www.google.com/maps?cid=5436255483766288672",
       "memo": "純和食店",
       "use": "食べもの",
       "sub": "和食"
@@ -237,6 +265,7 @@
     {
       "slug": "zenjiro",
       "title": "たんや善治郎 仙台駅牛たん通り店",
+      "url": "https://www.google.com/maps?cid=17455946521057700427",
       "memo": "牛タン店",
       "use": "食べもの",
       "sub": "和食"
@@ -244,6 +273,7 @@
     {
       "slug": "mikoda",
       "title": "盛岡神子田朝市",
+      "url": "https://www.google.com/maps?cid=14982991971668411330",
       "memo": "マーケット",
       "use": "街と建築",
       "sub": "市場"
@@ -251,6 +281,7 @@
     {
       "slug": "yukyu",
       "title": "悠久",
+      "url": "https://www.google.com/maps?cid=17394317688544276958",
       "memo": "寿司店",
       "use": "食べもの",
       "sub": "海鮮"
@@ -258,6 +289,7 @@
     {
       "slug": "shichibei",
       "title": "観音食堂 丼屋 七兵衛",
+      "url": "https://www.google.com/maps?cid=13698544910125792317",
       "memo": "海鮮丼専門店",
       "use": "食べもの",
       "sub": "海鮮"
@@ -266,6 +298,7 @@
       "slug": "shichifuku",
       "title": "七福温泉 宇戸の庄",
       "note": "閉業",
+      "url": "https://www.google.com/maps?cid=17362073861751569408",
       "use": "温泉と宿",
       "sub": "温泉"
     }

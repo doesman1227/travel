@@ -35,40 +35,40 @@ mountain-climb|週末の登山|2026|||../musings/posts/p143.html
 park|鳥の多い公園||||
 gym-bath|ジムの大きなお風呂||||
 cinema|映画館||||
-konpira|金毘羅宮||||
-karasawa|涸沢カール||||
-kamikochi|上高地||||
-fukashima|深島||||
-letao|ルタオ本店||||
-oze|尾瀬ヶ原||||
-imai-sakura|今井の桜||||
-yamanohana|尾瀬 山の鼻小屋||||
-bana|馬菜 銀座本店||||
-imakin|お食事処 いまきん食堂||||
-kabeyu|壁湯温泉 共同浴場||||
-yufugawa|由布川峡谷||||
-tomonaga|友永パン屋||||
-suisaitei|水哉亭||||
+konpira|金毘羅宮|||https://www.google.com/maps?cid=1845215252137377470|
+karasawa|涸沢カール|||https://www.google.com/maps?cid=8545746145143056529|
+kamikochi|上高地|||https://www.google.com/maps?cid=11127904433132550151|
+fukashima|深島|||https://www.google.com/maps?cid=8990188063075092287|
+letao|ルタオ本店|||https://www.google.com/maps?cid=8259555981103032062|
+oze|尾瀬ヶ原|||https://www.google.com/maps?cid=18374088831223961186|
+imai-sakura|今井の桜|||https://www.google.com/maps?cid=9536023577075274811|
+yamanohana|尾瀬 山の鼻小屋|||https://www.google.com/maps?cid=10467878208975739562|
+bana|馬菜 銀座本店|||https://www.google.com/maps?cid=13668996851426507781|
+imakin|お食事処 いまきん食堂|||https://www.google.com/maps?cid=15697323929618707803|
+kabeyu|壁湯温泉 共同浴場|||https://www.google.com/maps?cid=3545928650347619119|
+yufugawa|由布川峡谷|||https://www.google.com/maps?cid=9119419475049524356|
+tomonaga|友永パン屋|||https://www.google.com/maps?cid=4605794428648913857|
+suisaitei|水哉亭|||https://www.google.com/maps?cid=14777726099188977332|
 himebotaru|ヒメボタルの見られる場所||||
-daikanbo|大観峰||||
-bogatsuru|坊ガツル||||
-futagami|二上神社||||
-tenan|そば処 天庵||||
-hatozu|波当津海水浴場||||
-shioyu|塩湯||||
-matama|真玉海岸||||
-mamedake|豆岳珈琲||||
-gyosantei|魚山亭||||
-ebisumaru|市場食堂 ゑびす丸||||
-teshima|豊島美術館||||
-okunoin|高野山 奥之院||||
-british-villa|英国大使館別荘記念公園||||
-nantai|日本料理 なんたい||||
-zenjiro|たんや善治郎 仙台駅牛たん通り店||||
-mikoda|盛岡神子田朝市||||
-yukyu|悠久||||
-shichibei|観音食堂 丼屋 七兵衛||||
-shichifuku|七福温泉 宇戸の庄||閉業||
+daikanbo|大観峰|||https://www.google.com/maps?cid=15192827871379272824|
+bogatsuru|坊ガツル|||https://www.google.com/maps?cid=16973300403295476258|
+futagami|二上神社|||https://www.google.com/maps?cid=7838751254446397880|
+tenan|そば処 天庵|||https://www.google.com/maps?cid=6259182303548972728|
+hatozu|波当津海水浴場|||https://www.google.com/maps?cid=1708549664130368265|
+shioyu|塩湯|||https://www.google.com/maps?cid=6225876405804632663|
+matama|真玉海岸|||https://www.google.com/maps?cid=9837214995606711878|
+mamedake|豆岳珈琲|||https://www.google.com/maps?cid=2146451082320436219|
+gyosantei|魚山亭|||https://www.google.com/maps?cid=2466491443940294164|
+ebisumaru|市場食堂 ゑびす丸|||https://www.google.com/maps?cid=10349574541747357311|
+teshima|豊島美術館|||https://www.google.com/maps?cid=17591016499235052628|
+okunoin|高野山 奥之院|||https://www.google.com/maps?cid=4604607727501443422|
+british-villa|英国大使館別荘記念公園|||https://www.google.com/maps?cid=6052535047471249435|
+nantai|日本料理 なんたい|||https://www.google.com/maps?cid=5436255483766288672|
+zenjiro|たんや善治郎 仙台駅牛たん通り店|||https://www.google.com/maps?cid=17455946521057700427|
+mikoda|盛岡神子田朝市|||https://www.google.com/maps?cid=14982991971668411330|
+yukyu|悠久|||https://www.google.com/maps?cid=17394317688544276958|
+shichibei|観音食堂 丼屋 七兵衛|||https://www.google.com/maps?cid=13698544910125792317|
+shichifuku|七福温泉 宇戸の庄||閉業|https://www.google.com/maps?cid=17362073861751569408|
 """
 
 # また行きたいところ。ここに載せた分だけ picks.html に出る。
